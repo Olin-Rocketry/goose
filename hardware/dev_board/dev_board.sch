@@ -1113,8 +1113,6 @@ Wire Wire Line
 Connection ~ 7500 9900
 Text Label 9450 9800 2    50   ~ 0
 BARO_CS
-Text Label 10450 9500 0    50   ~ 0
-BARO_CS
 Text Label 11650 4250 2    50   ~ 0
 ACCEL_CS
 Text Label 11650 4350 2    50   ~ 0
@@ -1988,4 +1986,10 @@ Wire Wire Line
 Connection ~ 10500 7350
 NoConn ~ 7500 9600
 NoConn ~ 7500 9800
+Wire Wire Line
+	8900 9500 8850 9500
+Connection ~ 8900 9500
+Text Label 8850 9500 2    50   ~ 0
+3V3
+NoConn ~ 10450 9500
 $EndSCHEMATC
