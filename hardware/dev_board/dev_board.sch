@@ -19,7 +19,7 @@ U 1 1 60302E32
 P 12350 3750
 F 0 "U7" H 12300 5631 50  0000 C CNN
 F 1 "STM32F401RCTx" H 12300 5540 50  0000 C CNN
-F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 11750 2050 50  0001 R CNN
+F 2 "personal:STM32F401RCT6" H 11750 2050 50  0001 R CNN
 F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf" H 12350 3750 50  0001 C CNN
 	1    12350 3750
 	1    0    0    -1  
@@ -1117,11 +1117,11 @@ Text Label 11650 4250 2    50   ~ 0
 ACCEL_CS
 Text Label 11650 4350 2    50   ~ 0
 GYRO_CS
-Text Label 11650 4450 2    50   ~ 0
+Text Label 12950 5250 0    50   ~ 0
 ACCEL_DRDY
-Text Label 11650 4550 2    50   ~ 0
+Text Label 12950 5350 0    50   ~ 0
 GYRO_DRDY
-Text Label 12950 3950 0    50   ~ 0
+Text Label 12950 5050 0    50   ~ 0
 BARO_CS
 Text Label 11650 3850 2    50   ~ 0
 MAG_CS
@@ -1235,7 +1235,7 @@ F 3 "" H 4800 9550 50  0001 C CNN
 $EndComp
 Text Label 12100 7300 2    50   ~ 0
 ~FRAM_CS
-Text Label 12950 4050 0    50   ~ 0
+Text Label 12950 5150 0    50   ~ 0
 ~FRAM_CS
 $Comp
 L personal:Conn_01x02 J2
@@ -1838,22 +1838,6 @@ Text Label 12950 4750 0    50   ~ 0
 PB8
 Text Label 4150 8100 0    50   ~ 0
 PB8
-Text Label 12950 5050 0    50   ~ 0
-PB12
-Text Label 12950 5150 0    50   ~ 0
-PB13
-Text Label 12950 5250 0    50   ~ 0
-PB14
-Text Label 12950 5350 0    50   ~ 0
-PB15
-Text Label 4150 8200 0    50   ~ 0
-PB12
-Text Label 4150 8300 0    50   ~ 0
-PB13
-Text Label 4150 8400 0    50   ~ 0
-PB14
-Text Label 4150 8500 0    50   ~ 0
-PB15
 Text Notes 10200 1850 0    79   ~ 0
 Power Watchdog
 Text Notes 11200 1250 0    79   ~ 0
@@ -1992,4 +1976,20 @@ Connection ~ 8900 9500
 Text Label 8850 9500 2    50   ~ 0
 3V3
 NoConn ~ 10450 9500
+Text Label 12950 3950 0    50   ~ 0
+TIM3_CH3
+Text Label 12950 4050 0    50   ~ 0
+TIM3_CH4
+Text Label 4150 8400 0    50   ~ 0
+TIM3_CH3
+Text Label 4150 8500 0    50   ~ 0
+TIM3_CH4
+Text Label 11650 4450 2    50   ~ 0
+TIM3_CH1
+Text Label 11650 4550 2    50   ~ 0
+TIM3_CH2
+Text Label 4150 8200 0    50   ~ 0
+TIM3_CH1
+Text Label 4150 8300 0    50   ~ 0
+TIM3_CH2
 $EndSCHEMATC
