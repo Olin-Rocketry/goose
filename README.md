@@ -1,6 +1,8 @@
 # goose
 **G**reat **O**verview **O**f **S**TM **E**lectronics
 
+![3d render](/hardware/img/3d.png)
+
 The overarching goal of this project is to establish the foundation for designing and coding boards with more advanced stm32f-series microcontrollers. These microcontrollers are arm-based, super common in industry and hobbyist projects, have a large community of support, and a ton of features avr chips don't have like:
 - usb support
 - real time clocks

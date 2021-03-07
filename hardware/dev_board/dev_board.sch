@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MCU_ST_STM32F4:STM32F401RCTx U7
-U 1 1 60302E32
-P 12350 3750
-F 0 "U7" H 12300 5631 50  0000 C CNN
-F 1 "STM32F401RCTx" H 12300 5540 50  0000 C CNN
-F 2 "personal:STM32F401RCT6" H 11750 2050 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf" H 12350 3750 50  0001 C CNN
-	1    12350 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L personal:BMI088 U4
 U 1 1 6030584B
 P 7350 9650
@@ -138,15 +127,6 @@ Wire Wire Line
 	12550 2050 12550 1550
 Wire Wire Line
 	12550 1550 12800 1550
-Wire Wire Line
-	12250 2050 12350 2050
-Connection ~ 12550 2050
-Connection ~ 12350 2050
-Wire Wire Line
-	12350 2050 12450 2050
-Connection ~ 12450 2050
-Wire Wire Line
-	12450 2050 12550 2050
 Wire Wire Line
 	14600 1550 14150 1550
 Connection ~ 12800 1550
@@ -346,17 +326,6 @@ Wire Wire Line
 	10800 3700 11200 3700
 Wire Wire Line
 	11200 3700 11200 3450
-Wire Wire Line
-	12150 5550 12250 5550
-Connection ~ 12250 5550
-Wire Wire Line
-	12250 5550 12350 5550
-Connection ~ 12350 5550
-Wire Wire Line
-	12350 5550 12450 5550
-Connection ~ 12450 5550
-Wire Wire Line
-	12450 5550 12550 5550
 $Comp
 L power:GND #PWR031
 U 1 1 6033B781
@@ -370,7 +339,6 @@ F 3 "" H 12550 5600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12550 5600 12550 5550
-Connection ~ 12550 5550
 $Comp
 L personal:MCP131T-300E_TT U6
 U 1 1 60342A52
@@ -424,7 +392,7 @@ U 1 1 603491E2
 P 1050 1400
 F 0 "J1" H 1107 1867 50  0000 C CNN
 F 1 "Micro_USB" H 1107 1776 50  0000 C CNN
-F 2 "Connectors_USB:USB_Micro-B_Molex_47346-0001" H 1650 1000 50  0001 C CNN
+F 2 "personal:USB_Micro-B_Molex_47346-0001" H 1650 1000 50  0001 C CNN
 F 3 "https://www.digikey.com/products/en?keywords=WM17141CT-ND" H 1200 1350 50  0001 C CNN
 F 4 "WM17141CT-ND" H 1600 1100 50  0001 C CNN "DPN"
 	1    1050 1400
@@ -534,7 +502,7 @@ U 1 1 6035F301
 P 4850 1900
 F 0 "F2" H 4850 2125 50  0000 C CNN
 F 1 "PTC_6V_1A" H 4850 2034 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 4950 2350 50  0001 L CNN
+F 2 "personal:R_0805_HandSoldering" H 4950 2350 50  0001 L CNN
 F 3 "" V 4850 1900 50  0001 C CNN
 F 4 "507-1813-1-ND" H 5250 2150 50  0001 C CNN "DPN"
 F 5 "0ZCK0050FF2E" H 5200 2250 50  0001 C CNN "MPN"
@@ -788,7 +756,7 @@ U 1 1 603A49B7
 P 12450 7300
 F 0 "U8" H 12450 7493 50  0000 C CNN
 F 1 "FRAM_4K" H 12400 6850 50  0001 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 12350 7600 50  0001 C CNN
+F 2 "personal:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 12350 7600 50  0001 C CNN
 F 3 "https://www.cypress.com/file/136461/download" H 11900 7950 50  0001 C CNN
 F 4 "428-3209-ND" H 11600 7600 50  0001 C CNN "DPN"
 F 5 "FM25L04B-G" H 12450 7300 50  0001 C CNN "MPN"
@@ -917,10 +885,10 @@ F 3 "" H 10400 7950 50  0001 C CNN
 	1    10400 7950
 	1    0    0    -1  
 $EndComp
-Text Label 12950 2250 0    50   ~ 0
-ADC_IN0
-Text Label 12950 2350 0    50   ~ 0
-ADC_IN1
+Text Label 11650 3950 2    50   ~ 0
+ADC_IN11
+Text Label 11650 3850 2    50   ~ 0
+ADC_IN10
 Text Label 12950 2450 0    50   ~ 0
 USART2_TX
 Text Label 12950 2550 0    50   ~ 0
@@ -1123,9 +1091,9 @@ Text Label 12950 5350 0    50   ~ 0
 GYRO_DRDY
 Text Label 12950 5050 0    50   ~ 0
 BARO_CS
-Text Label 11650 3850 2    50   ~ 0
+Text Label 12950 2350 0    50   ~ 0
 MAG_CS
-Text Label 11650 3950 2    50   ~ 0
+Text Label 12950 2250 0    50   ~ 0
 MAG_DRDY
 Text Label 4250 9700 0    50   ~ 0
 MAG_CS
@@ -1235,7 +1203,7 @@ F 3 "" H 4800 9550 50  0001 C CNN
 $EndComp
 Text Label 12100 7300 2    50   ~ 0
 ~FRAM_CS
-Text Label 12950 5150 0    50   ~ 0
+Text Label 12950 2650 0    50   ~ 0
 ~FRAM_CS
 $Comp
 L personal:Conn_01x02 J2
@@ -1288,7 +1256,7 @@ U 1 1 60417D67
 P 1800 3950
 F 0 "F1" H 1800 4175 50  0000 C CNN
 F 1 "PTC_6V_1A" H 1800 4084 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" H 1900 4400 50  0001 L CNN
+F 2 "personal:R_0805_HandSoldering" H 1900 4400 50  0001 L CNN
 F 3 "" V 1800 3950 50  0001 C CNN
 F 4 "507-1813-1-ND" H 2200 4200 50  0001 C CNN "DPN"
 F 5 "0ZCK0050FF2E" H 2150 4300 50  0001 C CNN "MPN"
@@ -1321,7 +1289,7 @@ U 1 1 60325C35
 P 11750 1550
 F 0 "D7" H 11750 1350 50  0000 C CNN
 F 1 "D_Schottky_10V_3A" H 11600 1450 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323F" H 12250 1850 50  0001 C CNN
+F 2 "personal:D_SOD-323F" H 12250 1850 50  0001 C CNN
 F 3 "~" H 11750 1550 50  0001 C CNN
 F 4 "1727-3852-1-ND" H 12150 1750 50  0001 C CNN "DPN"
 F 5 "PMEG1030EJ,115" H 12150 1650 50  0001 C CNN "MPN"
@@ -1336,7 +1304,7 @@ U 1 1 6043C3D8
 P 2850 3800
 F 0 "D1" H 2850 3600 50  0000 C CNN
 F 1 "D_Schottky_10V_3A" H 2700 3700 50  0000 C CNN
-F 2 "Diodes_SMD:D_SOD-323F" H 3350 4100 50  0001 C CNN
+F 2 "personal:D_SOD-323F" H 3350 4100 50  0001 C CNN
 F 3 "~" H 2850 3800 50  0001 C CNN
 F 4 "1727-3852-1-ND" H 3250 4000 50  0001 C CNN "DPN"
 F 5 "PMEG1030EJ,115" H 3250 3900 50  0001 C CNN "MPN"
@@ -1433,7 +1401,7 @@ F 3 "" H 1500 6550 50  0001 C CNN
 	1    1500 6550
 	1    0    0    -1  
 $EndComp
-Text Label 12950 4150 0    50   ~ 0
+Text Label 12950 4750 0    50   ~ 0
 SPI3_AUX_CS
 $Comp
 L personal:R_100K R6
@@ -1742,19 +1710,19 @@ Text Label 1400 7600 0    50   ~ 0
 SPI1_MISO
 Text Label 1400 7700 0    50   ~ 0
 SPI1_MOSI
-Text Label 1400 7800 0    50   ~ 0
+Text Label 1400 8300 0    50   ~ 0
 MAG_CS
-Text Label 1400 7900 0    50   ~ 0
+Text Label 1400 8400 0    50   ~ 0
 MAG_DRDY
-Text Label 1400 8000 0    50   ~ 0
-ACCEL_CS
 Text Label 1400 8100 0    50   ~ 0
+ACCEL_CS
+Text Label 1400 8000 0    50   ~ 0
 GYRO_CS
 Text Label 1400 8200 0    50   ~ 0
 ACCEL_DRDY
-Text Label 1400 8300 0    50   ~ 0
+Text Label 1400 7900 0    50   ~ 0
 GYRO_DRDY
-Text Label 1400 8400 0    50   ~ 0
+Text Label 1400 7800 0    50   ~ 0
 BARO_CS
 Text Notes 850  7150 0    79   ~ 0
 SPI1 Pinout
@@ -1781,16 +1749,8 @@ Text Notes 2200 7150 0    79   ~ 0
 SPI2 Pinout
 Text Label 11650 5150 2    50   ~ 0
 SD_DETECT
-Text Label 4150 7500 0    50   ~ 0
-ADC_IN0
-Text Label 4150 7600 0    50   ~ 0
-ADC_IN1
-Text Label 12950 2650 0    50   ~ 0
-PA4
-Text Label 4150 7800 0    50   ~ 0
+Text Label 4150 8200 0    50   ~ 0
 PA8
-Text Label 4150 7700 0    50   ~ 0
-PA4
 $Comp
 L personal:Conn_01x06 J4
 U 1 1 60667EF5
@@ -1830,14 +1790,14 @@ Text Label 12950 3250 0    50   ~ 0
 PA10
 Text Label 12950 3750 0    50   ~ 0
 PA15
-Text Label 4150 7900 0    50   ~ 0
+Text Label 4150 8300 0    50   ~ 0
 PA10
-Text Label 4150 8000 0    50   ~ 0
+Text Label 4150 8400 0    50   ~ 0
 PA15
-Text Label 12950 4750 0    50   ~ 0
-PB8
-Text Label 4150 8100 0    50   ~ 0
-PB8
+Text Label 12950 4150 0    50   ~ 0
+PB2
+Text Label 4150 8500 0    50   ~ 0
+PB2
 Text Notes 10200 1850 0    79   ~ 0
 Power Watchdog
 Text Notes 11200 1250 0    79   ~ 0
@@ -1940,7 +1900,7 @@ U 1 1 6038C706
 P 5250 2050
 F 0 "D8" V 5296 1971 50  0000 R CNN
 F 1 "TVS_DIODE_14V" V 5205 1971 50  0000 R CNN
-F 2 "Capacitors_SMD:C_0402" H 5250 1850 50  0001 C CNN
+F 2 "personal:C_0402" H 5250 1850 50  0001 C CNN
 F 3 "" H 5200 2050 50  0001 C CNN
 F 4 "PESD0402-140CT-ND" H 5250 2050 50  0001 C CNN "DPN"
 	1    5250 2050
@@ -1980,16 +1940,58 @@ Text Label 12950 3950 0    50   ~ 0
 TIM3_CH3
 Text Label 12950 4050 0    50   ~ 0
 TIM3_CH4
-Text Label 4150 8400 0    50   ~ 0
+Text Label 4150 8000 0    50   ~ 0
 TIM3_CH3
-Text Label 4150 8500 0    50   ~ 0
+Text Label 4150 8100 0    50   ~ 0
 TIM3_CH4
 Text Label 11650 4450 2    50   ~ 0
 TIM3_CH1
 Text Label 11650 4550 2    50   ~ 0
 TIM3_CH2
-Text Label 4150 8200 0    50   ~ 0
+Text Label 4150 7800 0    50   ~ 0
 TIM3_CH1
-Text Label 4150 8300 0    50   ~ 0
+Text Label 4150 7900 0    50   ~ 0
 TIM3_CH2
+Text Label 12950 5150 0    50   ~ 0
+PB13
+Text Label 4150 7700 0    50   ~ 0
+PB13
+Text Label 4150 7500 0    50   ~ 0
+ADC_IN11
+Text Label 4150 7600 0    50   ~ 0
+ADC_IN10
+Wire Wire Line
+	12150 5550 12250 5550
+$Comp
+L personal:STM32F401RCTx U7
+U 1 1 6046F4F2
+P 12350 3750
+F 0 "U7" H 12300 5813 50  0000 C CNN
+F 1 "STM32F401RCTx" H 12300 5722 50  0000 C CNN
+F 2 "personal:LQFP-64_10x10mm_Pitch0.5mm" H 11750 2050 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf" H 12350 3750 50  0001 C CNN
+F 4 "497-14047-ND" H 12300 5631 50  0000 C CNN "DPN"
+F 5 "STM32F401RCT6" H 12300 5540 50  0000 C CNN "MPN"
+	1    12350 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 2050 12550 2050
+Connection ~ 12550 2050
+Wire Wire Line
+	12250 5550 12350 5550
+Connection ~ 12250 5550
+Connection ~ 12550 5550
+Connection ~ 12350 5550
+Wire Wire Line
+	12350 5550 12450 5550
+Connection ~ 12450 5550
+Wire Wire Line
+	12450 5550 12550 5550
+Wire Wire Line
+	12250 2050 12350 2050
+Connection ~ 12450 2050
+Connection ~ 12350 2050
+Wire Wire Line
+	12350 2050 12450 2050
 $EndSCHEMATC
