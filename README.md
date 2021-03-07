@@ -1,4 +1,4 @@
-# goose
+# G.O.O.S.E
 **G**reat **O**verview **O**f **S**TM **E**lectronics
 
 ![3d render](/hardware/img/3d.png)
