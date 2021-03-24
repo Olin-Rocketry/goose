@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\wfairman\Desktop\goose\hardware\dev_board\dev_board.sch</source>
+    <date>3/24/2021 8:34:50 AM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dev_board.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U4">
+      <value>BMI088</value>
+      <footprint>personal:BMI088</footprint>
+      <datasheet>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf</datasheet>
+      <fields>
+        <field name="DPN">828-1082-1-ND</field>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942</field>
+      </fields>
+      <libsource lib="personal" part="BMI088" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6030584B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LIS3MDLTR</value>
+      <footprint>personal:LIS3MDLTR</footprint>
+      <datasheet>https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf</datasheet>
+      <fields>
+        <field name="DPN">497-13892-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="LIS3MDLTR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60305F2C</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C_4u7</value>
+      <footprint>personal:C_0805</footprint>
+      <fields>
+        <field name="DPN">490-14466-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_4u7" description="4.7µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031D0B6</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031DFF2</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031E415</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031E7D8</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6031ED57</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_1K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-1.0KARCT-ND</field>
+      </fields>
+      <libsource lib="personal" part="R_1K" description="1 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60320BE0</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C_220u</value>
+      <footprint>personal:UWT0G221MCL6GS</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">493-9872-1-ND</field>
+        <field name="MPN">UWT0G221MCL6GS</field>
+      </fields>
+      <libsource lib="personal" part="C_220u" description="Aluminum Electrolytic Capacitors Radial, Can - SMD - 1000 Hrs @ 105°C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60321E5E</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_10K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-10.0KCRCT-ND</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="personal" part="R_10K" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60328B56</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C_4u7</value>
+      <footprint>personal:C_0805</footprint>
+      <fields>
+        <field name="DPN">490-14466-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_4u7" description="4.7µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6032B32F</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal_24MHZ</value>
+      <footprint>personal:NX3225SA-24.000M-STD-CSR-1</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">644-1052-1-ND</field>
+        <field name="MPN">NX3225SA-24.000M-STD-CSR-1</field>
+      </fields>
+      <libsource lib="personal" part="Crystal_24MHZ" description="CRYSTAL 24.0000MHZ 8PF SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60330265</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C_8p</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/yageo/CC0805DRNPO9BN8R0/311-1097-1-ND/303007</datasheet>
+      <fields>
+        <field name="DPN">311-1097-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_8p" description="8pF ±0.5pF 50V Ceramic Capacitor C0G, NP0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60332095</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C_8p</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/yageo/CC0805DRNPO9BN8R0/311-1097-1-ND/303007</datasheet>
+      <fields>
+        <field name="DPN">311-1097-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_8p" description="8pF ±0.5pF 50V Ceramic Capacitor C0G, NP0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6033335B</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>MCP131T-300E_TT</value>
+      <footprint>personal:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</datasheet>
+      <fields>
+        <field name="DPN">MCP131T-300E/TTCT-ND</field>
+      </fields>
+      <libsource lib="personal" part="MCP131T-300E_TT" description="Microcontroller supervisory circuit, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60342A52</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603444EA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Micro_USB</value>
+      <footprint>personal:USB_Micro-B_Molex_47346-0001</footprint>
+      <datasheet>https://www.digikey.com/products/en?keywords=WM17141CT-ND</datasheet>
+      <fields>
+        <field name="DPN">WM17141CT-ND</field>
+      </fields>
+      <libsource lib="personal" part="Micro_USB" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603491E2</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034998B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R_22</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">CR0805-FX-22R0ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-22R0ELF</field>
+      </fields>
+      <libsource lib="personal" part="R_22" description="22 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034F172</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_22</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">CR0805-FX-22R0ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-22R0ELF</field>
+      </fields>
+      <libsource lib="personal" part="R_22" description="22 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034FB7D</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky_x2_20V</value>
+      <footprint>personal:SOT1061</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">1727-5194-1-ND</field>
+        <field name="MPN">PMEG2020CPA,115</field>
+      </fields>
+      <libsource lib="personal" part="D_Schottky_x2_20V" description="DIODE ARRAY SCHOTTKY 20V 3HUSON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60352EFA</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>PTC_6V_1A</value>
+      <footprint>personal:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DPN">507-1813-1-ND</field>
+        <field name="MPN">0ZCK0050FF2E</field>
+      </fields>
+      <libsource lib="personal" part="PTC_6V_1A" description="Polymeric PTC Resettable Fuse 6V Ih Surface Mount 0805 (2012 Metric), Concave"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6035F301</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>R_120</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">A129738CT-ND</field>
+      </fields>
+      <libsource lib="personal" part="R_120" description="120 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603627A0</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LDO_600MA</value>
+      <footprint>personal:SOT-25_DIO</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/products_inactive_data/AP7365.pdf</datasheet>
+      <fields>
+        <field name="DPN">AP7365-33WG-7DICT-ND</field>
+        <field name="MPN">AP7365-33WG-7</field>
+      </fields>
+      <libsource lib="personal" part="LDO_600MA" description="IC REG LINEAR 3.3V 600MA SOT25"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036379E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C_10u</value>
+      <footprint>personal:C_0805</footprint>
+      <fields>
+        <field name="DPN">490-16824-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_10u" description="10µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603688E5</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036D13A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C_10u</value>
+      <footprint>personal:C_0805</footprint>
+      <fields>
+        <field name="DPN">490-16824-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_10u" description="10µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036F138</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OKL-T_1-W12P-C</value>
+      <footprint>personal:OKL-T1-W12P-C</footprint>
+      <datasheet>https://www.murata.com/products/productdata/8807038124062/okl-t1-w12.pdf?1583754815000</datasheet>
+      <fields>
+        <field name="DPN">811-3418-1-ND</field>
+        <field name="MPN">OKL-T/1-W12P-C</field>
+      </fields>
+      <libsource lib="personal" part="OKL-T_1-W12P-C" description="Non-Isolated PoL Module DC DC Converter 1 Output 0.9 ~ 5V    1A 2.9V - 14V Input"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6037857C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C_22u</value>
+      <footprint>personal:C_0805</footprint>
+      <fields>
+        <field name="DPN">490-14661-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_22u" description="22µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60379754</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>R_2K18</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">13-RT0805BRD072K18LCT-ND</field>
+        <field name="MPN">RT0805BRD072K18L</field>
+      </fields>
+      <libsource lib="personal" part="R_2K18" description="2.18 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thin Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6037B947</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Conn_02x03</value>
+      <footprint>personal:TSW-103-07-F-D</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">SAM10846-ND</field>
+        <field name="MPN">TSW-103-07-F-D</field>
+      </fields>
+      <libsource lib="personal" part="Conn_02x03" description="Connector Header Through Hole 6 position 0.100&quot; (2.54mm)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038B490</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>Barometer_MS5607</value>
+      <footprint>personal:MS561101BA03-50</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5607-02BA03&amp;DocType=Data+Sheet&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="DPN">223-1198-1-ND</field>
+        <field name="MPN"> MS560702BA03-50 </field>
+      </fields>
+      <libsource lib="personal" part="Barometer_MS5607" description="Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute  24 b 8-SMD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6039EF03</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>FRAM_4K</value>
+      <footprint>personal:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
+      <datasheet>https://www.cypress.com/file/136461/download</datasheet>
+      <fields>
+        <field name="DPN">428-3209-ND</field>
+        <field name="MPN">FM25L04B-G</field>
+      </fields>
+      <libsource lib="personal" part="FRAM_4K" description="FRAM (Ferroelectric RAM) Memory IC 4Kb (512 x 8) SPI 20MHz  8-SOIC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A49B7</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603A7F7A</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603B2F8C</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>105162-0001</value>
+      <footprint>personal:105162-0001</footprint>
+      <datasheet>https://www.molex.com/pdm_docs/sd/1051620001_sd.pdf</datasheet>
+      <fields>
+        <field name="DPN">WM14405CT-ND</field>
+        <field name="MPN">1051620001</field>
+      </fields>
+      <libsource lib="personal" part="105162-0001" description="Position Card Connector microSD™ Surface Mount, Right Angle Gold"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603D2468</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60344614</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60345210</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6036155A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>C_0u1</value>
+      <footprint>personal:C_0805</footprint>
+      <datasheet>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</datasheet>
+      <fields>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_0u1" description="0.1µF -20%, +80% 16V Ceramic Capacitor Y5V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60362037</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C_1u</value>
+      <footprint>personal:C_0805</footprint>
+      <fields>
+        <field name="DPN">399-8011-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="C_1u" description="1µF -20%, +80% 16V Ceramic Capacitor Y5V (F) 0805 (2012 Metric)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60362480</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>personal:header_01x02</footprint>
+      <libsource lib="personal" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>603F54E7</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x02</value>
+      <footprint>personal:header_01x02</footprint>
+      <libsource lib="personal" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6041751A</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>PTC_6V_1A</value>
+      <footprint>personal:R_0805_HandSoldering</footprint>
+      <fields>
+        <field name="DPN">507-1813-1-ND</field>
+        <field name="MPN">0ZCK0050FF2E</field>
+      </fields>
+      <libsource lib="personal" part="PTC_6V_1A" description="Polymeric PTC Resettable Fuse 6V Ih Surface Mount 0805 (2012 Metric), Concave"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60417D67</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>D_Schottky_10V_3A</value>
+      <footprint>personal:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">1727-3852-1-ND</field>
+        <field name="MPN">PMEG1030EJ,115</field>
+      </fields>
+      <libsource lib="personal" part="D_Schottky_10V_3A" description="Diode Schottky 3A (DC) Surface Mount SOD-323F"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60325C35</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>D_Schottky_10V_3A</value>
+      <footprint>personal:D_SOD-323F</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="DPN">1727-3852-1-ND</field>
+        <field name="MPN">PMEG1030EJ,115</field>
+      </fields>
+      <libsource lib="personal" part="D_Schottky_10V_3A" description="Diode Schottky 3A (DC) Surface Mount SOD-323F"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6043C3D8</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>LED_0805_Green</value>
+      <footprint>personal:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="DPN">475-1410-1-ND</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="LED_0805_Green" description="LED, Green, 2.2V, 20mA, 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049AEDF</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>LED_0805_Green</value>
+      <footprint>personal:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="DPN">475-1410-1-ND</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="LED_0805_Green" description="LED, Green, 2.2V, 20mA, 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6049C305</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_51.1</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">RMCF0805FT51R1CT-ND</field>
+        <field name="MPN">RMCF0805FT51R1</field>
+      </fields>
+      <libsource lib="personal" part="R_51.1" description="51.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604A4457</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>R_100K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="personal" part="R_100K" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604C44DD</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>R_100K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="personal" part="R_100K" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604C50AB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_100K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="personal" part="R_100K" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604C552A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_100K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="personal" part="R_100K" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>604C5976</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_100K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="personal" part="R_100K" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6050A622</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_100K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <libsource lib="personal" part="R_100K" description="100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6050AEB1</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED_0805_Green</value>
+      <footprint>personal:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="DPN">475-1410-1-ND</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="LED_0805_Green" description="LED, Green, 2.2V, 20mA, 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60580963</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_51.1</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">RMCF0805FT51R1CT-ND</field>
+        <field name="MPN">RMCF0805FT51R1</field>
+      </fields>
+      <libsource lib="personal" part="R_51.1" description="51.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60580971</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED_0805_Green</value>
+      <footprint>personal:LED_0805</footprint>
+      <datasheet>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</datasheet>
+      <fields>
+        <field name="DPN">475-1410-1-ND</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <libsource lib="personal" part="LED_0805_Green" description="LED, Green, 2.2V, 20mA, 0805"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60594B8A</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_51.1</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">RMCF0805FT51R1CT-ND</field>
+        <field name="MPN">RMCF0805FT51R1</field>
+      </fields>
+      <libsource lib="personal" part="R_51.1" description="51.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60594B92</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x10</value>
+      <footprint>personal:header_01x10</footprint>
+      <libsource lib="personal" part="Conn_01x10" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6060A03F</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Conn_01x04</value>
+      <footprint>personal:header_01x04</footprint>
+      <libsource lib="personal" part="Conn_01x04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60640C1A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x06</value>
+      <footprint>personal:header_01x06</footprint>
+      <libsource lib="personal" part="Conn_01x06" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60667EF5</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Conn_01x04</value>
+      <footprint>personal:header_01x04</footprint>
+      <libsource lib="personal" part="Conn_01x04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60668CAF</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>Conn_01x04</value>
+      <footprint>personal:header_01x04</footprint>
+      <libsource lib="personal" part="Conn_01x04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60669689</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>Conn_01x02</value>
+      <footprint>personal:header_01x02</footprint>
+      <libsource lib="personal" part="Conn_01x02" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6068AF40</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>Conn_01x11</value>
+      <footprint>personal:header_01x11</footprint>
+      <libsource lib="personal" part="Conn_01x11" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606A2BD2</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_10K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-10.0KCRCT-ND</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="personal" part="R_10K" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034F592</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>R_10K</value>
+      <footprint>personal:R_0805</footprint>
+      <fields>
+        <field name="DPN">311-10.0KCRCT-ND</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <libsource lib="personal" part="R_10K" description="10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6034FEA0</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>TVS_DIODE_14V</value>
+      <footprint>personal:C_0402</footprint>
+      <fields>
+        <field name="DPN">PESD0402-140CT-ND</field>
+      </fields>
+      <libsource lib="personal" part="TVS_DIODE_14V" description="40V Clamp  Ipp Tvs Diode Surface Mount 0402"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6038C706</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>STM32F401RCTx</value>
+      <footprint>personal:LQFP-64_10x10mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf</datasheet>
+      <fields>
+        <field name="DPN">497-14047-ND</field>
+        <field name="MPN">STM32F401RCT6</field>
+      </fields>
+      <libsource lib="personal" part="STM32F401RCTx" description="ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6046F4F2</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="personal" part="105162-0001">
+      <description>Position Card Connector microSD™ Surface Mount, Right Angle Gold</description>
+      <docs>https://www.molex.com/pdm_docs/sd/1051620001_sd.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">105162-0001</field>
+        <field name="Footprint">personal:105162-0001</field>
+        <field name="DPN">WM14405CT-ND</field>
+        <field name="MPN">1051620001</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DAT2" type="BiDi"/>
+        <pin num="2" name="CD/DAT3" type="BiDi"/>
+        <pin num="3" name="CMD" type="BiDi"/>
+        <pin num="4" name="VDD" type="BiDi"/>
+        <pin num="5" name="CLK" type="BiDi"/>
+        <pin num="6" name="VSS" type="BiDi"/>
+        <pin num="7" name="DAT0" type="BiDi"/>
+        <pin num="8" name="DAT1" type="BiDi"/>
+        <pin num="9" name="DET" type="BiDi"/>
+        <pin num="10" name="GND_1" type="BiDi"/>
+        <pin num="11" name="GND_2" type="BiDi"/>
+        <pin num="12" name="GND_3" type="BiDi"/>
+        <pin num="13" name="GND_4" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="BMI088">
+      <docs>https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI088-DS001.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BMI088</field>
+        <field name="Footprint">personal:BMI088</field>
+        <field name="Purchasing Link">https://www.digikey.com/product-detail/en/bosch-sensortec/BMI088/828-1082-1-ND/8634942</field>
+        <field name="DPN">828-1082-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="INT2" type="output"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="GNDA" type="power_in"/>
+        <pin num="5" name="CSB2" type="output"/>
+        <pin num="6" name="GNDio" type="power_in"/>
+        <pin num="7" name="PS" type="input"/>
+        <pin num="8" name="SCx" type="input"/>
+        <pin num="9" name="SDx" type="input"/>
+        <pin num="10" name="SD02" type="input"/>
+        <pin num="11" name="VDDIO" type="power_in"/>
+        <pin num="12" name="INT3" type="output"/>
+        <pin num="13" name="INT4" type="output"/>
+        <pin num="14" name="CSB1" type="input"/>
+        <pin num="15" name="SD01" type="input"/>
+        <pin num="16" name="INT1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Barometer_MS5607">
+      <description>Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute  24 b 8-SMD</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=MS5607-02BA03&amp;DocType=Data+Sheet&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Barometer_MS5607</field>
+        <field name="Footprint">personal:MS561101BA03-50</field>
+        <field name="DPN">223-1198-1-ND</field>
+        <field name="MPN"> MS560702BA03-50 </field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="PS" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="CSB" type="input"/>
+        <pin num="5" name="CSB" type="input"/>
+        <pin num="6" name="SDO" type="input"/>
+        <pin num="7" name="SDI/A" type="input"/>
+        <pin num="8" name="SCLK" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_0u1">
+      <description>0.1µF -20%, +80% 16V Ceramic Capacitor Y5V</description>
+      <docs>https://www.digikey.com/product-detail/en/kemet/C0805C104Z4VACTU/399-9159-1-ND/3522677</docs>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_0u1</field>
+        <field name="Footprint">personal:C_0805</field>
+        <field name="DPN">478-3352-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_10u">
+      <description>10µF ±10% 25V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10u</field>
+        <field name="Footprint">personal:C_0805</field>
+        <field name="DPN">490-16824-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_1u">
+      <description>1µF -20%, +80% 16V Ceramic Capacitor Y5V (F) 0805 (2012 Metric)</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1u</field>
+        <field name="Footprint">personal:C_0805</field>
+        <field name="DPN">399-8011-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_220u">
+      <description>Aluminum Electrolytic Capacitors Radial, Can - SMD - 1000 Hrs @ 105°C</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_220u</field>
+        <field name="Footprint">personal:UWT0G221MCL6GS</field>
+        <field name="DPN">493-9872-1-ND</field>
+        <field name="MPN">UWT0G221MCL6GS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_22u">
+      <description>22µF ±20% 25V Ceramic Capacitor X5R 0805 (2012 Metric)</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_22u</field>
+        <field name="Footprint">personal:C_0805</field>
+        <field name="DPN">490-14661-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_4u7">
+      <description>4.7µF ±10% 16V Ceramic Capacitor X7R 0805 (2012 Metric)</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_4u7</field>
+        <field name="Footprint">personal:C_0805</field>
+        <field name="DPN">490-14466-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="C_8p">
+      <description>8pF ±0.5pF 50V Ceramic Capacitor C0G, NP0</description>
+      <docs>https://www.digikey.com/product-detail/en/yageo/CC0805DRNPO9BN8R0/311-1097-1-ND/303007</docs>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_8p</field>
+        <field name="Footprint">personal:C_0805</field>
+        <field name="DPN">311-1097-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Conn_01x02">
+      <footprints>
+        <fp>CON2_1X2_TU_TSW</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint">personal:header_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Conn_01x04">
+      <footprints>
+        <fp>CON2_1X2_TU_TSW</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint">personal:header_01x04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+        <pin num="3" name="~" type="unspc"/>
+        <pin num="4" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Conn_01x06">
+      <footprints>
+        <fp>CON2_1X2_TU_TSW</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint">personal:header_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+        <pin num="3" name="~" type="unspc"/>
+        <pin num="4" name="~" type="unspc"/>
+        <pin num="5" name="~" type="unspc"/>
+        <pin num="6" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Conn_01x10">
+      <footprints>
+        <fp>CON2_1X2_TU_TSW</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10</field>
+        <field name="Footprint">personal:header_01x10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+        <pin num="3" name="~" type="unspc"/>
+        <pin num="4" name="~" type="unspc"/>
+        <pin num="5" name="~" type="unspc"/>
+        <pin num="6" name="~" type="unspc"/>
+        <pin num="7" name="~" type="unspc"/>
+        <pin num="8" name="~" type="unspc"/>
+        <pin num="9" name="~" type="unspc"/>
+        <pin num="10" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Conn_01x11">
+      <footprints>
+        <fp>CON2_1X2_TU_TSW</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x11</field>
+        <field name="Footprint">personal:header_01x11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="unspc"/>
+        <pin num="2" name="~" type="unspc"/>
+        <pin num="3" name="~" type="unspc"/>
+        <pin num="4" name="~" type="unspc"/>
+        <pin num="5" name="~" type="unspc"/>
+        <pin num="6" name="~" type="unspc"/>
+        <pin num="7" name="~" type="unspc"/>
+        <pin num="8" name="~" type="unspc"/>
+        <pin num="9" name="~" type="unspc"/>
+        <pin num="10" name="~" type="unspc"/>
+        <pin num="11" name="~" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Conn_02x03">
+      <description>Connector Header Through Hole 6 position 0.100" (2.54mm)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03</field>
+        <field name="Footprint">personal:TSW-103-07-F-D</field>
+        <field name="DPN">SAM10846-ND</field>
+        <field name="MPN">TSW-103-07-F-D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Crystal_24MHZ">
+      <description>CRYSTAL 24.0000MHZ 8PF SMD</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_24MHZ</field>
+        <field name="Footprint">personal:NX3225SA-24.000M-STD-CSR-1</field>
+        <field name="DPN">644-1052-1-ND</field>
+        <field name="MPN">NX3225SA-24.000M-STD-CSR-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="D_Schottky_10V_3A">
+      <description>Diode Schottky 3A (DC) Surface Mount SOD-323F</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_10V_3A</field>
+        <field name="Footprint">personal:D_SOD-323F</field>
+        <field name="DPN">1727-3852-1-ND</field>
+        <field name="MPN">PMEG1030EJ,115</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="D_Schottky_x2_20V">
+      <description>DIODE ARRAY SCHOTTKY 20V 3HUSON</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_x2_20V</field>
+        <field name="Footprint">personal:SOT1061</field>
+        <field name="DPN">1727-5194-1-ND</field>
+        <field name="MPN">PMEG2020CPA,115</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="FRAM_4K">
+      <description>FRAM (Ferroelectric RAM) Memory IC 4Kb (512 x 8) SPI 20MHz  8-SOIC</description>
+      <docs>https://www.cypress.com/file/136461/download</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FRAM_4K</field>
+        <field name="Footprint">personal:SOIC-8_3.9x4.9mm_Pitch1.27mm</field>
+        <field name="DPN">428-3209-ND</field>
+        <field name="MPN">FM25L04B-G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="passive"/>
+        <pin num="2" name="SO" type="passive"/>
+        <pin num="3" name="~WP" type="passive"/>
+        <pin num="4" name="Vss" type="passive"/>
+        <pin num="5" name="SI" type="passive"/>
+        <pin num="6" name="SCK" type="passive"/>
+        <pin num="7" name="~HOLD" type="passive"/>
+        <pin num="8" name="Vdd" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="LDO_600MA">
+      <description>IC REG LINEAR 3.3V 600MA SOT25</description>
+      <docs>https://www.diodes.com/assets/Datasheets/products_inactive_data/AP7365.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LDO_600MA</field>
+        <field name="Footprint">personal:SOT-25_DIO</field>
+        <field name="DPN">AP7365-33WG-7DICT-ND</field>
+        <field name="MPN">AP7365-33WG-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="LED_0805_Green">
+      <description>LED, Green, 2.2V, 20mA, 0805</description>
+      <docs>http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf</docs>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_0805_Green</field>
+        <field name="Footprint">personal:LED_0805</field>
+        <field name="DPN">475-1410-1-ND</field>
+        <field name="MPN">LG R971-KN-1</field>
+        <field name="PurchasingLink">https://www.digikey.com/products/en?keywords=475-1410-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="LIS3MDLTR">
+      <docs>https://www.st.com/content/ccc/resource/technical/document/datasheet/54/2a/85/76/e3/97/42/18/DM00075867.pdf/files/DM00075867.pdf/jcr:content/translations/en.DM00075867.pdf</docs>
+      <footprints>
+        <fp>LGA-12_2X2X1_STM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LIS3MDLTR</field>
+        <field name="Footprint">personal:LIS3MDLTR</field>
+        <field name="DPN">497-13892-1-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SCL/SPC" type="BiDi"/>
+        <pin num="2" name="RES" type="unspc"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="C1" type="unspc"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="VDD_IO" type="power_in"/>
+        <pin num="7" name="INT" type="unspc"/>
+        <pin num="8" name="DRDY" type="unspc"/>
+        <pin num="9" name="SDO/SA1" type="BiDi"/>
+        <pin num="10" name="CS" type="BiDi"/>
+        <pin num="11" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="12" name="RES" type="unspc"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="MCP131T-300E_TT">
+      <description>Microcontroller supervisory circuit, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/11184d.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP131T-300E_TT</field>
+        <field name="Footprint">personal:SOT-23</field>
+        <field name="DPN">MCP131T-300E/TTCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST" type="BiDi"/>
+        <pin num="2" name="VDD" type="BiDi"/>
+        <pin num="3" name="VSS" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="Micro_USB">
+      <description>USB Micro Type B connector</description>
+      <docs>https://www.digikey.com/products/en?keywords=WM17141CT-ND</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Micro_USB</field>
+        <field name="Footprint">personal:USB_Micro-B_Molex_47346-0001</field>
+        <field name="DPN">WM17141CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="OKL-T_1-W12P-C">
+      <description>Non-Isolated PoL Module DC DC Converter 1 Output 0.9 ~ 5V    1A 2.9V - 14V Input</description>
+      <docs>https://www.murata.com/products/productdata/8807038124062/okl-t1-w12.pdf?1583754815000</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OKL-T_1-W12P-C</field>
+        <field name="Footprint">personal:OKL-T1-W12P-C</field>
+        <field name="DPN">811-3418-1-ND</field>
+        <field name="MPN">OKL-T/1-W12P-C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ON/OFF" type="passive"/>
+        <pin num="2" name="VIN" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="VOUT" type="passive"/>
+        <pin num="6" name="TRIM" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="PTC_6V_1A">
+      <description>Polymeric PTC Resettable Fuse 6V Ih Surface Mount 0805 (2012 Metric), Concave</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">PTC_6V_1A</field>
+        <field name="Footprint">personal:R_0805_HandSoldering</field>
+        <field name="DPN">507-1813-1-ND</field>
+        <field name="MPN">0ZCK0050FF2E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_100K">
+      <description>100 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100K</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">311-100KCRCT-ND</field>
+        <field name="MPN">RC0805FR-07100KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_10K">
+      <description>10 kOhms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10K</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">311-10.0KCRCT-ND</field>
+        <field name="MPN">RC0805FR-0710KL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_120">
+      <description>120 Ohms ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200, Moisture Resistant Thick Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_120</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">A129738CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_1K">
+      <description>1 kOhms ±5% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thick Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1K</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">311-1.0KARCT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_22">
+      <description>22 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Moisture Resistant Thick Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_22</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">CR0805-FX-22R0ELFCT-ND</field>
+        <field name="MPN">CR0805-FX-22R0ELF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_2K18">
+      <description>2.18 kOhms ±0.1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric)  Thin Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2K18</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">13-RT0805BRD072K18LCT-ND</field>
+        <field name="MPN">RT0805BRD072K18L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="R_51.1">
+      <description>51.1 ±1% 0.125W, 1/8W Chip Resistor 0805 (2012 Metric) Automotive AEC-Q200 Thick Film</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_51.1</field>
+        <field name="Footprint">personal:R_0805</field>
+        <field name="DPN">RMCF0805FT51R1CT-ND</field>
+        <field name="MPN">RMCF0805FT51R1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="STM32F401RCTx">
+      <description>ARM Cortex-M4 MCU, 128KB flash, 64KB RAM, 84MHz, 1.7-3.6V, 50 GPIO, LQFP-64</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00086815.pdf</docs>
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32F401RCTx</field>
+        <field name="Footprint">personal:LQFP-64_10x10mm_Pitch0.5mm</field>
+        <field name="DPN">497-14047-ND</field>
+        <field name="MPN">STM32F401RCT6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13" type="BiDi"/>
+        <pin num="3" name="PC14" type="BiDi"/>
+        <pin num="4" name="PC15" type="BiDi"/>
+        <pin num="5" name="PH0" type="input"/>
+        <pin num="6" name="PH1" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0" type="BiDi"/>
+        <pin num="9" name="PC1" type="BiDi"/>
+        <pin num="10" name="PC2" type="BiDi"/>
+        <pin num="11" name="PC3" type="BiDi"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VREF+" type="power_in"/>
+        <pin num="14" name="PA0" type="BiDi"/>
+        <pin num="15" name="PA1" type="BiDi"/>
+        <pin num="16" name="PA2" type="BiDi"/>
+        <pin num="17" name="PA3" type="BiDi"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4" type="BiDi"/>
+        <pin num="21" name="PA5" type="BiDi"/>
+        <pin num="22" name="PA6" type="BiDi"/>
+        <pin num="23" name="PA7" type="BiDi"/>
+        <pin num="24" name="PC4" type="BiDi"/>
+        <pin num="25" name="PC5" type="BiDi"/>
+        <pin num="26" name="PB0" type="BiDi"/>
+        <pin num="27" name="PB1" type="BiDi"/>
+        <pin num="28" name="PB2" type="BiDi"/>
+        <pin num="29" name="PB10" type="BiDi"/>
+        <pin num="30" name="VCAP1" type="power_in"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="BiDi"/>
+        <pin num="34" name="PB13" type="BiDi"/>
+        <pin num="35" name="PB14" type="BiDi"/>
+        <pin num="36" name="PB15" type="BiDi"/>
+        <pin num="37" name="PC6" type="BiDi"/>
+        <pin num="38" name="PC7" type="BiDi"/>
+        <pin num="39" name="PC8" type="BiDi"/>
+        <pin num="40" name="PC9" type="BiDi"/>
+        <pin num="41" name="PA8" type="BiDi"/>
+        <pin num="42" name="PA9" type="BiDi"/>
+        <pin num="43" name="PA10" type="BiDi"/>
+        <pin num="44" name="PA11" type="BiDi"/>
+        <pin num="45" name="PA12" type="BiDi"/>
+        <pin num="46" name="PA13" type="BiDi"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDD" type="power_in"/>
+        <pin num="49" name="PA14" type="BiDi"/>
+        <pin num="50" name="PA15" type="BiDi"/>
+        <pin num="51" name="PC10" type="BiDi"/>
+        <pin num="52" name="PC11" type="BiDi"/>
+        <pin num="53" name="PC12" type="BiDi"/>
+        <pin num="54" name="PD2" type="BiDi"/>
+        <pin num="55" name="PB3" type="BiDi"/>
+        <pin num="56" name="PB4" type="BiDi"/>
+        <pin num="57" name="PB5" type="BiDi"/>
+        <pin num="58" name="PB6" type="BiDi"/>
+        <pin num="59" name="PB7" type="BiDi"/>
+        <pin num="60" name="BOOT0" type="input"/>
+        <pin num="61" name="PB8" type="BiDi"/>
+        <pin num="62" name="PB9" type="BiDi"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="personal" part="TVS_DIODE_14V">
+      <description>40V Clamp  Ipp Tvs Diode Surface Mount 0402</description>
+      <footprints>
+        <fp>D?DO?201AE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS_DIODE_14V</field>
+        <field name="Footprint">personal:C_0402</field>
+        <field name="DPN">PESD0402-140CT-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="personal">
+      <uri>C:\Users\wfairman\Desktop/kicad_parts/personal.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D8" pin="1"/>
+      <node ref="J9" pin="4"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J4" pin="6"/>
+      <node ref="J7" pin="4"/>
+      <node ref="U7" pin="47"/>
+      <node ref="J12" pin="11"/>
+      <node ref="J12" pin="12"/>
+      <node ref="J12" pin="13"/>
+      <node ref="J11" pin="2"/>
+      <node ref="J12" pin="6"/>
+      <node ref="U7" pin="18"/>
+      <node ref="J6" pin="6"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="U7" pin="31"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U7" pin="63"/>
+      <node ref="U7" pin="12"/>
+      <node ref="J12" pin="10"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="Y1" pin="4"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U4" pin="6"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U8" pin="4"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D5-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D5-Pad2)">
+      <node ref="U7" pin="3"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="5" name="Net-(D6-Pad2)">
+      <node ref="U7" pin="4"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="6" name="/SPI1_SCK">
+      <node ref="J5" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U7" pin="21"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U4" pin="8"/>
+    </net>
+    <net code="7" name="/SPI1_MISO">
+      <node ref="U5" pin="6"/>
+      <node ref="U4" pin="15"/>
+      <node ref="U4" pin="10"/>
+      <node ref="U1" pin="9"/>
+      <node ref="J5" pin="2"/>
+      <node ref="U7" pin="22"/>
+    </net>
+    <net code="8" name="/SPI1_MOSI">
+      <node ref="U5" pin="7"/>
+      <node ref="U4" pin="9"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U7" pin="23"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="9" name="/I2C1_SCL">
+      <node ref="J7" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="U7" pin="58"/>
+    </net>
+    <net code="10" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="15" name="Net-(F1-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="16" name="/TIM3_CH3">
+      <node ref="U7" pin="26"/>
+      <node ref="J10" pin="6"/>
+    </net>
+    <net code="17" name="/SD_DETECT">
+      <node ref="J12" pin="9"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="18" name="/ACCEL_CS">
+      <node ref="U7" pin="24"/>
+      <node ref="J5" pin="7"/>
+      <node ref="U4" pin="14"/>
+    </net>
+    <net code="19" name="/GYRO_CS">
+      <node ref="U7" pin="25"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="20" name="/MAG_CS">
+      <node ref="J5" pin="9"/>
+      <node ref="U7" pin="15"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="21" name="/TIM3_CH4">
+      <node ref="U7" pin="27"/>
+      <node ref="J10" pin="7"/>
+    </net>
+    <net code="22" name="/PB2">
+      <node ref="J10" pin="11"/>
+      <node ref="U7" pin="28"/>
+    </net>
+    <net code="23" name="/PB13">
+      <node ref="J10" pin="3"/>
+      <node ref="U7" pin="34"/>
+    </net>
+    <net code="24" name="/ACCEL_DRDY">
+      <node ref="U4" pin="16"/>
+      <node ref="U7" pin="35"/>
+      <node ref="J5" pin="8"/>
+    </net>
+    <net code="25" name="/GYRO_DRDY">
+      <node ref="J5" pin="5"/>
+      <node ref="U7" pin="36"/>
+      <node ref="U4" pin="12"/>
+    </net>
+    <net code="26" name="Net-(U5-Pad5)">
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="27" name="/TIM3_CH1">
+      <node ref="U7" pin="37"/>
+      <node ref="J10" pin="4"/>
+    </net>
+    <net code="28" name="Net-(C16-Pad1)">
+      <node ref="U7" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C16" pin="1"/>
+    </net>
+    <net code="29" name="/MAG_DRDY">
+      <node ref="U7" pin="14"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J5" pin="10"/>
+    </net>
+    <net code="30" name="/USART1_RX">
+      <node ref="J6" pin="3"/>
+      <node ref="U7" pin="59"/>
+    </net>
+    <net code="31" name="Net-(U6-Pad1)">
+      <node ref="U6" pin="1"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="32" name="/SDIO_D0">
+      <node ref="J12" pin="7"/>
+      <node ref="U7" pin="39"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="33" name="/USART1_TX">
+      <node ref="U7" pin="42"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="34" name="/PA10">
+      <node ref="J10" pin="9"/>
+      <node ref="U7" pin="43"/>
+    </net>
+    <net code="35" name="/SWDIO">
+      <node ref="U7" pin="46"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="36" name="Net-(U4-Pad13)">
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="37" name="/SWCLK">
+      <node ref="J6" pin="5"/>
+      <node ref="U7" pin="49"/>
+    </net>
+    <net code="38" name="/PA15">
+      <node ref="U7" pin="50"/>
+      <node ref="J10" pin="10"/>
+    </net>
+    <net code="39" name="/SDIO_D2">
+      <node ref="R6" pin="2"/>
+      <node ref="U7" pin="51"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="40" name="/SDIO_D3">
+      <node ref="U7" pin="52"/>
+      <node ref="R7" pin="2"/>
+      <node ref="J12" pin="2"/>
+    </net>
+    <net code="41" name="/SDIO_CK">
+      <node ref="J12" pin="5"/>
+      <node ref="U7" pin="53"/>
+    </net>
+    <net code="42" name="/SDIO_CMD">
+      <node ref="R8" pin="2"/>
+      <node ref="U7" pin="54"/>
+      <node ref="J12" pin="3"/>
+    </net>
+    <net code="43" name="/SPI3_SCK">
+      <node ref="J4" pin="2"/>
+      <node ref="U7" pin="55"/>
+    </net>
+    <net code="44" name="/SPI3_MISO">
+      <node ref="J4" pin="3"/>
+      <node ref="U7" pin="56"/>
+    </net>
+    <net code="45" name="/SPI3_MOSI">
+      <node ref="J4" pin="4"/>
+      <node ref="U7" pin="57"/>
+    </net>
+    <net code="46" name="/SPI3_AUX_CS">
+      <node ref="U7" pin="61"/>
+      <node ref="J4" pin="5"/>
+    </net>
+    <net code="47" name="/3V3">
+      <node ref="C10" pin="1"/>
+      <node ref="U8" pin="8"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U8" pin="7"/>
+      <node ref="J12" pin="4"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U7" pin="64"/>
+      <node ref="U7" pin="13"/>
+      <node ref="U7" pin="32"/>
+      <node ref="U7" pin="19"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U7" pin="48"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="11"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="48" name="/I2C1_SDA">
+      <node ref="R17" pin="2"/>
+      <node ref="U7" pin="62"/>
+      <node ref="J7" pin="3"/>
+    </net>
+    <net code="49" name="/USART2_TX">
+      <node ref="J9" pin="2"/>
+      <node ref="U7" pin="16"/>
+    </net>
+    <net code="50" name="/USART2_RX">
+      <node ref="J9" pin="3"/>
+      <node ref="U7" pin="17"/>
+    </net>
+    <net code="51" name="/5V">
+      <node ref="J11" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="F2" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="52" name="/SPI2_SCK">
+      <node ref="U7" pin="29"/>
+      <node ref="J8" pin="1"/>
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="53" name="/SPI2_MISO">
+      <node ref="U8" pin="5"/>
+      <node ref="U7" pin="10"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="54" name="/SPI2_MOSI">
+      <node ref="U7" pin="11"/>
+      <node ref="J8" pin="3"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="55" name="/SDIO_D1">
+      <node ref="R10" pin="2"/>
+      <node ref="U7" pin="40"/>
+      <node ref="J12" pin="8"/>
+    </net>
+    <net code="56" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="57" name="/ADC_IN11">
+      <node ref="U7" pin="9"/>
+      <node ref="J10" pin="1"/>
+    </net>
+    <net code="58" name="/ADC_IN10">
+      <node ref="U7" pin="8"/>
+      <node ref="J10" pin="2"/>
+    </net>
+    <net code="59" name="/TIM3_CH2">
+      <node ref="U7" pin="38"/>
+      <node ref="J10" pin="5"/>
+    </net>
+    <net code="60" name="/PA8">
+      <node ref="U7" pin="41"/>
+      <node ref="J10" pin="8"/>
+    </net>
+    <net code="61" name="Net-(J1-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="62" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="63" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="64" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="65" name="/USB_5V">
+      <node ref="J1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="66" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="Y1" pin="3"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="67" name="Net-(C14-Pad2)">
+      <node ref="U7" pin="6"/>
+      <node ref="C14" pin="2"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C6-Pad2)">
+      <node ref="D1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="70" name="/OTG_FS_D_P">
+      <node ref="U7" pin="45"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="71" name="/OTG_FS_D_N">
+      <node ref="R2" pin="2"/>
+      <node ref="U7" pin="44"/>
+    </net>
+    <net code="72" name="/BUCK_5V">
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="73" name="Net-(D2-Pad3)">
+      <node ref="F2" pin="1"/>
+      <node ref="D2" pin="3"/>
+    </net>
+    <net code="74" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="U7" pin="60"/>
+    </net>
+    <net code="75" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="U7" pin="30"/>
+    </net>
+    <net code="76" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="78" name="Net-(R3-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="79" name="/BARO_CS">
+      <node ref="U5" pin="4"/>
+      <node ref="U7" pin="33"/>
+      <node ref="J5" pin="4"/>
+    </net>
+    <net code="80" name="/~FRAM_CS">
+      <node ref="U8" pin="1"/>
+      <node ref="U7" pin="20"/>
+      <node ref="J8" pin="4"/>
+    </net>
+  </nets>
+</export>
